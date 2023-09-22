@@ -21,7 +21,7 @@ print("min, max, sum",
       max(numbers),
       sum(numbers))
 
-squares = [i + i for i in range(2, 10)]
+squares = [i ** 2 for i in range(2, 10)]
 print(squares)
 
 # 4.3
@@ -122,3 +122,10 @@ for dish in dishes:
 # 4.15 show vertical line vs code on 80 and 100 col: "editor.rulers": [80, 100]
 # show
 # ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+my_list_second = []
+
+for num in range(1, 11):
+    my_list_second.append(num)
+
+print(my_list_second)

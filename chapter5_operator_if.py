@@ -168,3 +168,10 @@ for num in numbers:
 # якого напишуть на пайтоні.
 # крім того, хочу написати якийсь bruteforce-застосунок,
 # оскільки python дуже добре для цього підходить.
+
+my_list = []
+for i in range(1, 11):
+    if i % 2 == 1:
+        my_list.append(i)
+
+print(my_list)
